@@ -3,7 +3,6 @@ gsap.registerPlugin(ScrollTrigger);
 const t1 = gsap.timeline({
   scrollTrigger: {
     trigger: ".white_second_main_page",
-    markers: true,
     start: "top center",
   },
 });
